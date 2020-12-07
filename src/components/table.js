@@ -9,14 +9,6 @@ class Table extends React.Component {
         this.state = {
             music: props.music
         }
-        //= {
-        //    music: [
-        //        { id: 1, title: 'Hells Bells', album: 'Back in Black', artist: 'AC/DC', genre: 'Rock', releaseDate: '12/12/2020' },
-        //        { id: 2, title: 'Hells Bells', album: 'Back in Black', artist: 'AC/DC', genre: 'Rock', releaseDate: '12/12/2020' },
-        //        { id: 3, title: 'Hells Bells', album: 'Back in Black', artist: 'AC/DC', genre: 'Rock', releaseDate: '12/12/2020' },
-        //        { id: 4, title: 'Hells Bells', album: 'Back in Black', artist: 'AC/DC', genre: 'Rock', releaseDate: '12/12/2020' },
-        //    ]
-        //}
     }
 
     renderTableHeader() {
