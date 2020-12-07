@@ -7,11 +7,13 @@ import '../src/components/table.js'
 // import Table from '../src/components/table.js';
 import Table from '../src/components/MusicList.js';
 import Search from './components/search.js';
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="Jumbo">
       <header>
+      <Navbar />
       <Jumbo />
       </header>
       <body>

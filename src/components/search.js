@@ -9,7 +9,7 @@ class Search extends React.Component {
     results: [],
     loading: true
   }
-
+//could not get data from musicList.js so I recreated it here. not sure if I should/could import/reuse the other js component//
   getInfo = () => {
     axios.get(`http://www.devcodecampmusiclibrary.com/api/music`)
       .then(({ data }) => {
